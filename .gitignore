@@ -1,0 +1,129 @@
+# ========================================
+# Visual Studio / .NET / ASP.NET Core
+# ========================================
+
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+# NuGet Symbol Packages
+*.symbols.nupkg
+# Package restore files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio config
+.vs/
+.vscode/
+.idea/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userprefs
+*.dbmdl
+
+# Rider
+.idea/
+*.sln.iml
+
+# Coverage / Testing
+*.coverage
+*.coveragexml
+TestResult.xml
+TestResults/
+*.trx
+*.testsettings
+
+# ASP.NET log files
+*.log
+logs/
+Logs/
+
+# Publish outputs
+publish/
+out/
+wwwroot/lib/
+
+# ========================================
+# Environment & Sensitive Config
+# ========================================
+
+# Local development settings
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.secrets.json
+
+# User secrets (dotnet user-secrets)
+secrets.json
+
+# SSL local dev certificates
+*.pfx
+*.cer
+*.key
+
+# ========================================
+# OS-specific files
+# ========================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ========================================
+# Others
+# ========================================
+
+# JetBrains Rider / ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Backup & temporary files
+*.bak
+*.tmp
+*.temp
+*.swp
+*.swo
+*.orig
+
+# Node.js (if using React/Angular frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ========================================
+# Docker / Containers (optional)
+# ========================================
+
+docker-compose.override.yml
+.env
+.env.*
